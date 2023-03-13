@@ -1,0 +1,312 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+    color: #080808;
+}
+
+/* -----------------------Header----------------------- */
+
+.head {
+    padding: 10px 5%;
+}
+
+.head h1 {
+    font-weight: 500;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+    width: 80px;
+}
+
+.logo2 {
+    width: 40px;
+}
+
+.banner {
+    width: 100%;
+    height: 52vh;
+    background-image: url(TCS_iON_Compass_school/images/banner/Blue_triangle_bg_image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main {
+    font-size: 40px;
+    padding: 0 10%;
+    padding-top: 100px;
+    text-align: left;
+    margin-left: 50px;
+    color: yellow;
+}
+
+.sub-title {
+    font-size: 25px;
+    padding: 50px 10%;
+    margin-left: 50px;
+    text-align: left;
+    color: white;
+}
+
+/* -------------insight card--------------- */
+
+#insight {
+    background: #cddefa;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+}
+
+iframe {
+    margin-left: 10%;
+    padding: 10px 10%;
+    width: 80%;
+    height: 85vh;
+}
+
+
+
+/* --------------steer-----------  */
+
+#steer {
+    width: 100%;
+    height: 100vh;
+    background-image: url(TCS_iON_Compass_school/images/Compass/compass-bg.jpg);
+    background-size: cover;
+}
+
+.section-3 {
+    padding: 10px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.steer-head {
+    padding: 30px;
+    font-size: 35px;
+}
+
+.table1 {
+    font-size: 18px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+table {
+    width: 80%;
+}
+
+td {
+    text-align: center;
+    background-color: #fff;
+}
+
+th {
+    text-align: left;
+    padding: 10px 15px;
+    background-color: #f0eaea;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: #e4e2e2;
+}
+
+.td1 {
+    text-align: center;
+    background-color: #FEDB00;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.td2 {
+    text-align: center;
+    background-color: #FE9A00;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.td3 {
+    text-align: center;
+    color: #33CB80;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.td4 {
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.td5 {
+    color: #33CB80;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.td6 {
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+td a {
+    text-decoration: none;
+}
+
+.button {
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: fit-content;
+    background: #1481da;
+    border-radius: 12px;
+    border-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.button:hover {
+    background: #1566e8;
+}
+
+
+/* ---------------------CARD-------------------- */
+
+
+#tucareer {
+    background-color: #80E5F1;
+    width: 100%;
+    height: 100vh;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    margin-left: 50px;
+}
+
+.card-body img {
+    width: 60%;
+    padding: 10px;
+}
+
+.card1 {
+    width: 450px;
+    height: 560px;
+    margin: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.card1 ul {
+    text-align: left;
+    padding: 20px 10px 0 50px;
+}
+
+.card2 {
+    width: 450px;
+    height: 560px;
+    margin: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.card2 ul {
+    text-align: left;
+    padding: 20px 10px 0 50px;
+}
+
+.card2 h4 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 100;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    background-color: #FFAF3C;
+}
+
+.card1 h4 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 100;
+    border-radius: 10px 10px 0 0;
+    padding: 19px;
+    background-color: #6B00FE;
+}
+
+.card h5 {
+    font-size: 20px;
+    text-align: left;
+    padding: 0 0 0 35px;
+}
+
+.btn2 {
+    text-align: center;
+    font-size: 24px;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 370px;
+    background: rgb(215, 214, 214);
+    border-radius: 50px;
+    border-style: none;
+    text-decoration: none;
+    color: #080808;
+
+}
+
+.btn3 {
+    text-align: center;
+    font-size: 24px;
+    display: block;
+    margin: 11px auto;
+    padding: 10px;
+    width: 370px;
+    background: rgb(215, 214, 214);
+    border-radius: 50px;
+    border-style: none;
+    text-decoration: none;
+    color: #080808;
+}
+
+.card a {
+    font-size: 18px;
+    color: #1566e8;
+    font-style: italic;
+    font-weight: 600;
+}
